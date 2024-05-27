@@ -1,0 +1,284 @@
+
+nav{
+	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 62px;
+    background-color: white;
+    border-bottom: 1px solid rgb(12, 192, 223); 
+    z-index: 100;
+}
+nav ul li{
+	list-style-type: none;
+    display:inline-block;
+    margin: 0.8rem 1.5rem;
+}
+nav ul li a{
+	background-color: rgb(12, 192, 223);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.50rem 1.17rem;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    font-size: 1rem;
+}
+nav ul li a:hover{
+	color: rgb(12, 192, 223);
+    background-color: transparent;
+    border: 2px solid rgb(12, 192, 223);
+}
+
+.productInfo{
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 93%;
+    height: 630px;
+    background-color:rgb(255, 255, 255);
+    justify-content: space-around;
+    border-radius: 30px;
+
+    border: solid 3px rgb(12, 192, 223) ;
+}
+
+
+
+
+
+.productTitle{
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 93%;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    
+    border: solid 3px white
+}
+.productImg{
+    display: flex;
+    margin-top: 30px;
+   
+    width: 100%;
+    height: 500px;
+    background-color:rgb(255, 255, 255);
+    justify-content: space-around;
+    border-radius: 30px;
+    
+    border: solid 3px white;
+}
+.img{
+    margin-top: 10px;
+   
+    width: 30%;
+    height: 480px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    
+    border: solid 3px rgb(12, 192, 223)
+}
+.img img{
+    margin-top: 55px;
+    width: 90%;
+}
+.desc{
+    margin-top: 10px;
+    
+    width: 60%;
+    height: 480px;
+    background-color:white;
+   
+    border-radius: 30px;
+    
+    border: solid 3px rgb(12, 192, 223)
+}
+
+.carc{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 70%;
+    height: 65%;
+    background-color:transparent;
+    
+   
+    border-radius: 30px;
+    
+}
+.carc h2{
+    font-size: 16px;
+    left: 0;
+}
+.carc ul li{
+    font-size: 14px;
+    list-style-type: disc;
+}
+.carc ul li span{
+    font-weight: 800;
+}
+
+.prix{
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    height: 15%;
+    background-color:rgb(255, 255, 255);
+    
+    border-radius: 30px;
+    display: flex;
+
+}
+.newPrix{
+    margin-left: 50px;
+    color: rgb(12, 192, 223);
+    width: 140px;
+    height: 100%;
+    background-color:white;
+    text-align: center;
+   
+    border-radius: 30px;
+    
+}
+.remise{
+   
+    width: 10%;
+    height: 100%;
+    background-color:white;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding-top: 13px;
+}
+.ancPrix{
+    padding-top: 13px;
+    width: 70px;
+    height: 100%;
+    background-color:white;
+    
+    justify-content: space-around;
+    border-radius: 30px;
+    text-decoration-line: line-through;
+}
+.btn{
+   
+    margin-top: 0px;
+    margin-left: 3%;
+    width: 94%;
+    height: 15%;
+    background-color:transparent;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+.btn button{
+    margin-top: 0px;
+    width: 70%;
+    height: 45px;
+    background-color:rgb(12, 192, 223);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.50rem 1.17rem;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    font-size: 1rem;
+} 
+
+.btn button:hover{
+    text-decoration: none;
+	color: rgb(12, 192, 223);
+    background-color: transparent;
+    border: 2px solid rgb(12, 192, 223);
+}
+.btn button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(12, 192, 223);
+    font-weight: bold;
+    padding: 0.50rem 40%;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    /* transition: 0.4s; */
+    font-size: 1rem;
+   
+}
+.btn button a:hover{
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: rgb(12, 192, 223);
+}
+
+@media screen and ( max-width: 800px){
+
+    .productInfo{
+        height: 1250px;
+    }
+    .productImg{
+        display: block;
+        margin-top: 30px;
+       
+        width: 100%;
+        height: 1050px;
+        background-color:rgb(255, 255, 255);
+       
+        border-radius: 30px;
+        
+        border: solid 3px white;
+    }    
+    .productTitle{
+        height: 100px;
+    }
+    .img{
+        margin-top: 20px;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 450px;
+
+    }
+    .img img{
+        margin-top: 10%;
+        margin-bottom: 15%;
+        width: auto;
+       height: 75%;
+    }
+    .desc{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 550px;
+    }
+
+
+
+    .contact{
+        margin-top: 100px;
+    }
+    .btn button a{
+       
+        padding: 0.50rem 1.97rem;
+       
+    }
+}

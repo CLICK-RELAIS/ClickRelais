@@ -1,0 +1,86 @@
+.one {
+    margin-top: 150px;
+    padding-top: 50px;
+    /* background-color:red ; */
+    height: 300px;
+    width: 100%;
+    
+}
+.icon{
+   
+   text-align: center;
+
+    /* background-color:aqua ; */
+    height: 120px;
+    width: 100%;
+}
+.icon img{
+    width: 100px;
+    height: auto;
+}
+.merci{
+   
+    text-align: center;
+ 
+    /* background-color:aqua ; */
+     height: 90px;
+     width: 100%;
+ }
+.mercitext{
+    text-align: center;
+ 
+    /* background-color:aqua ; */
+     height: 40px;
+     width: 70%;
+     margin-left: 15%;
+}
+.two{
+    display: flex;
+    margin-top: 70px;
+    padding-top: 10px;
+    /* background-color:red ; */
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.social{
+    padding-top: 20px;
+  width: 40%;
+  height: 160px;
+  background-color: white;
+  border-radius: 30px;
+    
+  border: solid 3px rgb(152,20,76)
+
+}
+.titre{
+    width: 100%;
+    height: 30px;
+    /* background-color: bisque; */
+    text-align: center;
+
+}
+.ico{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    /* background-color: bisque; */
+    text-align: center;
+ 
+}
+.ico img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.retour{
+    padding-top: 30px;
+    width: 40%;
+    height: 160px;
+    background-color: white;
+    border-radius: 30px;
+      
+    border: solid 3px rgb(152,20,76)
+}

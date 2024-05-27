@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICK-RELAIS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav>
+		<a href="productPage.html"><img id="click" src="images/Logo C.png" alt=""></a>
+		<ul id="actions" >
+			<li><a href="Accueil.html">Accueil</a></li>
+			<li><a href="A props.html">A propos</a></li>
+			<li><a href="">Contact</a></li>
+			
+		</ul>
+    <button id="menu">
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+		<a id="test" href="productPage.html"><img  src="images/Logo C.png" alt=""></a>
+	</nav>
+  <div class="titre">
+    <h1>Livraison aux points de relais:</h1>
+  </div>
+  
+  <div class="form">
+    
+  
+  <h3>Les informations sur la livraison: </h3>
+  <br>
+  <br>
+    <form method="post" action="" name="contact-form">
+  <label for="pays" >Choisir une wilaya:</label>
+  <select name="wilaya" id="pays" onchange="chargerWilayas()">
+    <option  value="">Sélectionnez une wilaya</option>
+  </select>  
+
+  <label for="wilayas">Choisir une commune:</label>
+  <select name="commune" id="wilayas" onchange="chargerCommunes()">
+    <option value="">Sélectionnez une commune</option>
+  </select>
+  
+
+ <button  id="afficherIframeBtn"><a href="#iframeContainer">Trouver</a></button>
+ </div>
+ 
+  
+ <br>
+ <br>
+ <br>
+
+  <div class="map" id="iframeContainer">
+    <h3>Sélectionner une commune pour trouver les points de relais</h3>
+  </div>
+  <div class="form2">
+  <h3>Les informations personnelles: </h3>
+    <br>
+    <br>
+   
+    <label aria-required="true" for="nom">Nom :</label>
+    <input required id="nom" name="Nom" type="text" placeholder="Entrer votre nom">
+    <label for="Prénom">Prénom :</label>
+    <input id="prénom" name="Prenom" type="text" placeholder="Entrer votre prénom">
+   
+    <label for="Numéro">Numéro de téléphone :</label>
+    <input id="tel" name="nmr" type="tel" placeholder="Entrer votre numéro">
+     <br>
+     <br>
+
+
+     <label id="mail" for="e-mail"> E-mail :</label>
+    <input  name="e-mail" type="email" placeholder="Entrer votre e-mail">
+
+
+    <label for="communes">Choisir une point de relais:</label>
+  <select name="point" id="communes">
+    <option  value="">Sélectionnez une point de relais</option>
+  </select>
+  <br><br>
+  <a href="thankYouPage.html"><input type="submit" value="Confirmer la commande" id="submit"> </a>
+  
+</form>
+ </div>
+  <section class="contact" id="contact">
+		<div class="main-contact">
+			<div class="contact-content">
+				<li><a href="#">Accueil</a></li>
+				
+				<li><a href="#">A propos</a></li>
+			    <li><a href="#">Contact</a></li>
+			</div>
+
+		
+
+			<div class="contact-content">
+				<li><a href="">Facebook</a></li>
+				<li><a href="">Linkedin</a></li>				
+        <li><a href="https://www.instagram.com/reliparc.dz/">Instagram</a></li>
+		   
+			</div>
+      <div id="two" class="contact-content">
+				<a href="productPage.html"><img id="click2" src="images/Fichier 5.png" alt=""></a>
+                <br>
+                <h3 id="slogan">Empowering E-commerce Logistics</h3>
+			</div>
+
+		</div>
+
+		
+	</section>
+
+  
+
+  <script src="index.js"> </script>
+</body>
+</html>
