@@ -18,6 +18,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+#rmq{
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: 700;
+}
+span{
+    color: red;
+}
 nav{
 	padding-top: 30px;
     padding-bottom: 30px;
@@ -84,7 +92,7 @@ nav ul li a:hover{
     margin-top: 30px;
     margin-left: 3.5%;
     width: 93%;
-    height: 180px;
+    height: 190px;
     background-color:white;
     justify-content: space-around;
     border-radius: 30px;
