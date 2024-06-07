@@ -139,3 +139,26 @@
 .ec h1{
     margin-top: -40px;
 }
+.infotitle ul li{
+	list-style-type: none;
+    display:inline-block;
+    margin: 0.8rem 1.5rem;
+    width: 30%;
+}
+.infotitle ul li a{
+	background-color: rgb(152,20,76);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.50rem 1.17rem;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    font-size: 1rem;
+    width: 200px;
+}
+.infotitle ul li a:hover{
+	color: rgb(152,20,76);
+    background-color: transparent;
+    border: 2px solid rgb(152,20,76);
+}
