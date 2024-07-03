@@ -198,7 +198,7 @@
   const codeHTMLParCommune = {
     'CHETTIA': '<iframe src="https://my.atlist.com/map/58e858e8-06ff-411a-9a78-804a5e1d0b7b?share=true" allow="geolocation \'self\' https://my.atlist.com" width="100%" height="800px" loading="lazy" frameborder="0" scrolling="yes" allowfullscreen></iframe>',
     'BOU ISMAÏL':'<iframe src="https://my.atlist.com/map/5903ad61-e03d-482e-b643-ad67360ba215/?share=true" allow="geolocation \'self\' https://my.atlist.com" width="100%" height="500px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen id="atlist-embed"></iframe>',
-    'KOLÉA' : '<iframe src="https://my.atlist.com/map/cea263e1-6a16-4e68-8b68-8b649e3208e6/?share=true" allow="geolocation \'self\' https://my.atlist.com" width="100%" height="500px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen id="atlist-embed"></iframe>',
+    'KOLÉA' : '<iframe src="https://my.atlist.com/map/26d40879-a4be-4fff-8031-d1928e41aa3f/?share=true" allow="geolocation \'self\' https://my.atlist.com" width="100%" height="500px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen id="atlist-embed"></iframe>',
 
     'ADRAR' : '<h3>Cette commune ne dispose pas de point de relais</h3>',
   };
